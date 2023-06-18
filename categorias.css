@@ -1,0 +1,45 @@
+/*categorias*/
+.heading{
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+.heading span{
+    color: var(--green);
+    text-transform: uppercase;
+}
+.category .caja-container{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.category .caja-container .caja{
+    border: .1rem solid rgba(0, 0, 0, .3);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    flex: 1 1 25rem;
+}
+.category .caja-container .caja img{
+    width: 20rem;
+    margin: .5rem 0;
+}
+.category .caja-container .caja h3{
+    font-size: 3.5rem;
+    color: var(--black);
+}
+.category .caja-container .caja p{
+    font-size: 2rem;
+    color: var(--black);
+}
+.category .caja-container .caja .btn{
+    display: block;
+}
+@media(max-width: 580px) {
+    .heading{
+        font-size: 3rem;
+    }
+}
